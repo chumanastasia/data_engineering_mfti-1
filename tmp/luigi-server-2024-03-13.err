@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/Users/sber-market/PycharmProjects/personal/mfti/second-semester/de-hw-1/.venv/bin/luigid", line 8, in <module>
+    sys.exit(luigid())
+             ^^^^^^^^
+  File "/Users/sber-market/PycharmProjects/personal/mfti/second-semester/de-hw-1/.venv/lib/python3.11/site-packages/luigi/cmdline.py", line 33, in luigid
+    luigi.process.daemonize(luigi.server.run, api_port=opts.port,
+  File "/Users/sber-market/PycharmProjects/personal/mfti/second-semester/de-hw-1/.venv/lib/python3.11/site-packages/luigi/process.py", line 124, in daemonize
+    write_pid(pidfile)
+  File "/Users/sber-market/PycharmProjects/personal/mfti/second-semester/de-hw-1/.venv/lib/python3.11/site-packages/luigi/process.py", line 50, in write_pid
+    with open(pidfile, 'w') as fobj:
+         ^^^^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: 'tmp'
+Traceback (most recent call last):
+  File "/Users/sber-market/PycharmProjects/personal/mfti/second-semester/de-hw-1/.venv/bin/luigid", line 8, in <module>
+    sys.exit(luigid())
+             ^^^^^^^^
+  File "/Users/sber-market/PycharmProjects/personal/mfti/second-semester/de-hw-1/.venv/lib/python3.11/site-packages/luigi/cmdline.py", line 33, in luigid
+    luigi.process.daemonize(luigi.server.run, api_port=opts.port,
+  File "/Users/sber-market/PycharmProjects/personal/mfti/second-semester/de-hw-1/.venv/lib/python3.11/site-packages/luigi/process.py", line 124, in daemonize
+    write_pid(pidfile)
+  File "/Users/sber-market/PycharmProjects/personal/mfti/second-semester/de-hw-1/.venv/lib/python3.11/site-packages/luigi/process.py", line 50, in write_pid
+    with open(pidfile, 'w') as fobj:
+         ^^^^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: 'tmp'
